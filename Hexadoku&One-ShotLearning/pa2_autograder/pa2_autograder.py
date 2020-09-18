@@ -135,7 +135,7 @@ def third_grade(dirname):
     try:
         make_executable(dirname)
     except:
-        print "An exception occured trying to execute %s"%(dirname)
+        print "An exception occurred trying to execute %s"%(dirname)
 	os.chdir(prevdir)
 	print "Score is ", score
 	print ""
@@ -196,7 +196,7 @@ def second_grade(dirname):
     try:
         make_executable(dirname)
     except:
-        print "An exception occured trying to execute %s"%(dirname)
+        print "An exception occurred trying to execute %s"%(dirname)
 	os.chdir(prevdir)
 	print "Score is ", score
 	print ""
@@ -223,7 +223,7 @@ def first_grade(dirname):
     try:
         make_executable(dirname)
     except:
-        print "An exception occured trying to execute %s"%(dirname)
+        print "An exception occurred trying to execute %s"%(dirname)
 	os.chdir(prevdir)
 	print "Score is ", score
 	print ""

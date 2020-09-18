@@ -122,7 +122,7 @@ def file_grade(dirname):
     try:
         make_executable(dirname)
     except:
-        print "An exception occured trying to execute %s"%(dirname)
+        print "An exception occurred trying to execute %s"%(dirname)
 
 	os.chdir(prevdir)
 	print "my score is ", myscore

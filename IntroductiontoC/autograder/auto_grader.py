@@ -127,7 +127,7 @@ def file_grade(dirname):
     try:
         make_executable(dirname)
     except:
-        print "An exception occured trying to execute %s"%(dirname)
+        print "An exception occurred trying to execute %s"%(dirname)
 	os.chdir(prevdir)
 	print "Score is ", score
 	print ""
@@ -196,7 +196,7 @@ def single_grade(dirname):
     try:
         make_executable(dirname)
     except:
-        print "An exception occured trying to execute %s"%(dirname)
+        print "An exception occurred trying to execute %s"%(dirname)
 	os.chdir(prevdir)
 	print "Score is ", score
 	print ""
@@ -250,7 +250,7 @@ def single_grade(dirname):
     		    score = score + weight[dirname]
             except:
         	os.chdir(prevdir)
-                print "An exception occured trying to execute %s"%(command_str)
+                print "An exception occurred trying to execute %s"%(command_str)
         	print "Score is ", score
     fd.close()
     print "Score is ", score
